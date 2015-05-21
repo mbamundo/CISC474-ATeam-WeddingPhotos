@@ -1,0 +1,33 @@
+.hidden {
+	display: none;
+}
+
+#input {
+	float: left;
+	margin-left: 5px;
+}
+
+#pictures {
+	float: left;
+	margin-left: 10px;
+}
+
+#clear {
+	clear: both;
+}
+
+#list {
+	list-style-type: none;
+	position: relative;
+	top: -15px;
+	transform: rotate(180deg);
+}
+
+#list li {
+	transform: rotate(-180deg);
+}
+
+.listImg {
+	position: relative;
+	top: -15px;
+}
